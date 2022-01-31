@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Bootstrap to the Thymeleaf</title>
+
+    <link th:href = "@{/css/bootstrap.min.css}" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <table class="table table-responsive table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Employee First Name</th>
+                            <th>Employee Last Name</th>
+                            <th>Employee Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td> Umut </td>
+                            <td> Cagri </td>
+                            <td> umutcaltinsoy@gmail.com </td>
+                        </tr>
+
+                        <tr>
+                            <td> John </td>
+                            <td> Wick </td>
+                            <td> john@gmail.com </td>
+                        </tr>
+
+                        <tr>
+                            <td> Ramesh </td>
+                            <td> Fadatare </td>
+                            <td> rfadatare@gmail.com </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
